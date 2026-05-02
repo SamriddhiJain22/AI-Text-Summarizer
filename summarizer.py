@@ -1,7 +1,7 @@
 from transformers import pipeline
 
 # Load model (fast + stable)
-summarizer = pipeline("text2text-generation", model="google/flan-t5-base")
+summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
 
 
 def chunk_text(text, max_words=400):
