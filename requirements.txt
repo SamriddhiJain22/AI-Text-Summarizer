@@ -1,4 +1,3 @@
-transformers
-torch
-nltk
+transformers==4.41.2
+torch --index-url https://download.pytorch.org/whl/cpu
 streamlit
